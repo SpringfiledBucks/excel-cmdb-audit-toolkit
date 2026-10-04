@@ -1,0 +1,20 @@
+[
+  {
+    "command": "python audit.py --assets demo/assets.xlsx --bm demo/bm.xlsx --collected demo/collected.csv --output output",
+    "exit_code": 0,
+    "stdout": "报告已生成：output\n输入 12 行；状态统计 {'MATCHED': 4, 'CONFLICT': 3, 'MISSING': 2, 'DUPLICATE': 2, 'INVALID': 1}\n",
+    "stderr": ""
+  },
+  {
+    "command": "python -m pytest -q",
+    "exit_code": 0,
+    "stdout": "..............                                                           [100%]\n14 passed in 1.88s\n",
+    "stderr": ""
+  },
+  {
+    "command": "python -m pip check",
+    "exit_code": 0,
+    "stdout": "No broken requirements found.\n",
+    "stderr": ""
+  }
+]

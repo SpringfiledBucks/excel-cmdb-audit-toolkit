@@ -1,0 +1,3 @@
+﻿source,source_row,status,matched_asset_row,match_key,asset_id,serial_number,management_ip,bmc_ip,field,old_value,new_value,reason
+assets,4,MISSING,,,DEMO-ASSET-003,DEMO-SN-003,192.0.2.13,203.0.113.13,,,,not_observed_in_collected
+collected,5,MISSING,,,DEMO-ASSET-005,DEMO-SN-005,192.0.2.15,203.0.113.15,,,,no_asset_match

@@ -1,0 +1,7 @@
+﻿asset_id,device_type,vendor,model,status,location,management_ip,business_ip,bmc_ip,serial_number,project
+DEMO-ASSET-001,,,MODEL-A,,,192.0.2.11,,203.0.113.11,DEMO-SN-001,
+DEMO-ASSET-002,,,MODEL-X,,,192.0.2.12,,203.0.113.12,DEMO-SN-002,
+DEMO-ASSET-004,,,MODEL-D,,,192.0.2.14,,203.0.113.14,DEMO-SN-004,
+DEMO-ASSET-005,,,MODEL-E,,,192.0.2.15,,203.0.113.15,DEMO-SN-005,
+DEMO-ASSET-003,,,MODEL-C,,,192.0.2.13,,not-an-ip,DEMO-SN-003,
+DEMO-ASSET-004,,,MODEL-D,,,192.0.2.14,,203.0.113.14,DEMO-SN-004,

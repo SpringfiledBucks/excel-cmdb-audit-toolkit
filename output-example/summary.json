@@ -1,0 +1,51 @@
+{
+  "input_rows": 12,
+  "source_rows": {
+    "assets": 3,
+    "bm": 3,
+    "collected": 6
+  },
+  "status_counts": {
+    "MATCHED": 4,
+    "CONFLICT": 3,
+    "MISSING": 2,
+    "DUPLICATE": 2,
+    "INVALID": 1
+  },
+  "source_status_counts": {
+    "assets": {
+      "MATCHED": 2,
+      "CONFLICT": 0,
+      "MISSING": 1,
+      "DUPLICATE": 0,
+      "INVALID": 0
+    },
+    "bm": {
+      "MATCHED": 1,
+      "CONFLICT": 2,
+      "MISSING": 0,
+      "DUPLICATE": 0,
+      "INVALID": 0
+    },
+    "collected": {
+      "MATCHED": 1,
+      "CONFLICT": 1,
+      "MISSING": 1,
+      "DUPLICATE": 2,
+      "INVALID": 1
+    }
+  },
+  "detail_rows": 18,
+  "affected_row_counts": {
+    "MATCHED": 4,
+    "CONFLICT": 3,
+    "MISSING": 2,
+    "DUPLICATE": 2,
+    "INVALID": 1
+  },
+  "collected_coverage": {
+    "assets_observed": 2,
+    "assets_unobserved": 1
+  },
+  "count_basis": "status_counts and source_status_counts count one primary status per input row (INVALID > DUPLICATE > CONFLICT > MISSING > MATCHED). affected_row_counts count distinct input rows per detail status and can overlap; detail_rows count all exported details."
+}

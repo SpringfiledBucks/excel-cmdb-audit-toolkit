@@ -1,0 +1,5 @@
+﻿source,source_row,status,matched_asset_row,match_key,asset_id,serial_number,management_ip,bmc_ip,field,old_value,new_value,reason
+bm,3,CONFLICT,3,serial_number,DEMO-ASSET-002,DEMO-SN-002,,203.0.113.99,bmc_ip,203.0.113.12,203.0.113.99,value_differs_from_assets
+bm,4,CONFLICT,4,asset_id,DEMO-ASSET-003,DEMO-SN-OTHER,,203.0.113.13,serial_number,DEMO-SN-003,DEMO-SN-OTHER,value_differs_from_assets
+collected,3,CONFLICT,3,serial_number,DEMO-ASSET-002,DEMO-SN-002,192.0.2.12,203.0.113.12,model,MODEL-B,MODEL-X,value_differs_from_assets
+collected,6,INVALID,,,DEMO-ASSET-003,DEMO-SN-003,192.0.2.13,not-an-ip,bmc_ip,,not-an-ip,invalid_ip

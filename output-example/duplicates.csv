@@ -1,0 +1,9 @@
+﻿source,source_row,status,matched_asset_row,match_key,asset_id,serial_number,management_ip,bmc_ip,field,old_value,new_value,reason
+collected,4,DUPLICATE,,,DEMO-ASSET-004,DEMO-SN-004,192.0.2.14,203.0.113.14,serial_number,,DEMO-SN-004,duplicate_identifier_in_collected
+collected,4,DUPLICATE,,,DEMO-ASSET-004,DEMO-SN-004,192.0.2.14,203.0.113.14,asset_id,,DEMO-ASSET-004,duplicate_identifier_in_collected
+collected,4,DUPLICATE,,,DEMO-ASSET-004,DEMO-SN-004,192.0.2.14,203.0.113.14,management_ip,,192.0.2.14,duplicate_identifier_in_collected
+collected,4,DUPLICATE,,,DEMO-ASSET-004,DEMO-SN-004,192.0.2.14,203.0.113.14,bmc_ip,,203.0.113.14,duplicate_identifier_in_collected
+collected,7,DUPLICATE,,,DEMO-ASSET-004,DEMO-SN-004,192.0.2.14,203.0.113.14,serial_number,,DEMO-SN-004,duplicate_identifier_in_collected
+collected,7,DUPLICATE,,,DEMO-ASSET-004,DEMO-SN-004,192.0.2.14,203.0.113.14,asset_id,,DEMO-ASSET-004,duplicate_identifier_in_collected
+collected,7,DUPLICATE,,,DEMO-ASSET-004,DEMO-SN-004,192.0.2.14,203.0.113.14,management_ip,,192.0.2.14,duplicate_identifier_in_collected
+collected,7,DUPLICATE,,,DEMO-ASSET-004,DEMO-SN-004,192.0.2.14,203.0.113.14,bmc_ip,,203.0.113.14,duplicate_identifier_in_collected
